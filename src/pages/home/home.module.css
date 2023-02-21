@@ -1,0 +1,41 @@
+.home {
+  padding: 20px 0px;
+  height: 100vh;
+}
+.imgPhoto {
+  height: 80vh;
+  width: 50vh;
+}
+.profile {
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+}
+.profileItem {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.profileItem p,
+.profileItem h1 {
+  padding: 6px 0px;
+  margin: 6px 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .imgPhoto {
+    height: 60vh;
+    width: 34vh;
+  }
+  .profileItem p,
+  .profileItem h1 {
+    text-align: center;
+  }
+}
