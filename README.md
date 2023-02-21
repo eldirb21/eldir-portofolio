@@ -2,7 +2,10 @@
 
 ## Set up
 
-1.  clone project : SSH git@github.com:eldirb21/eldir-portofolio.git or HTTPS : https://github.com/eldirb21/eldir-portofolio.git
+1.  clone project : 
+                By SSH : git@github.com:eldirb21/eldir-portofolio.git 
+                or
+                By HTTPS : https://github.com/eldirb21/eldir-portofolio.git
 2.  ### `npm install`
 3.  ### `npm start`
 
