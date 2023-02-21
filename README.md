@@ -11,7 +11,7 @@
 ### For WEB
 
 <!-- ![Alt text](https://github.com/eldirb21/eldir-portofolio/tree/final/src/assets/screenshot/home.png 250x250) -->
-<img src="https://github.com/eldirb21/eldir-portofolio/blob/dev/src/assets/screenshot/home.png" width="400" height="300">
+<img src="https://github.com/eldirb21/eldir-portofolio/blob/dev/src/assets/screenshot/home.png"   height="400">
 
 ### For MOBILE
 
