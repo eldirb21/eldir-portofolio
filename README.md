@@ -8,7 +8,7 @@
 
 ## Screens
 
-### FOR WEB
+### * FOR WEB
 
 <!-- ![Alt text](https://github.com/eldirb21/eldir-portofolio/tree/final/src/assets/screenshot/home.png 250x250) -->
 <img src="https://github.com/eldirb21/eldir-portofolio/blob/dev/src/assets/screenshot/home.png"   height="400">
@@ -17,7 +17,7 @@
 <hr/>
 <br />
 
-### FOR MOBILE
+### * FOR MOBILE
 
 <!-- ![Alt text](https://github.com/eldirb21/eldir-portofolio/tree/final/src/assets/screenshot/home-mobile.png 250x250) -->
 <img src="https://github.com/eldirb21/eldir-portofolio/blob/dev/src/assets/screenshot/home-mobile.png" width="300" height="600">
