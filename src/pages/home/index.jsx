@@ -6,9 +6,17 @@ import styles from "./home.module.css";
 export const Home = (props) => {
   return (
     <div className={styles.home}>
+      <div className={styles.absoluteItem}>
+        <div>
+          <button type="submit">Resume</button>
+        </div>
+        <div>
+          <button type="button">Contact</button>
+        </div>
+      </div>
       <div className={styles.profile}>
         <div className={styles.profileItem}>
-          <p>Hi, </p>
+          <p>Hi,</p>
           <h1>Eldir Buulolo</h1>
           <p>I am Software Defelopment</p>
         </div>
