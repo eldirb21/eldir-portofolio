@@ -40,18 +40,18 @@ function Header(props) {
           <li>
             <a href="/experience">Experience</a>
           </li>
-          <li>
+          {/* <li>
             <a href="/project">Project</a>
-          </li>
+          </li> */}
           <li>
-            <a href="/opensource">Opensource</a>
+            <a href="/opensource">Open source</a>
           </li>
           <li>
             <a href="/about">About</a>
           </li>
-          <li>
+          {/* <li>
             <a href="/contact">Contact</a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>
