@@ -11,12 +11,12 @@
 ### For WEB
 
 <!-- ![Alt text](https://github.com/eldirb21/eldir-portofolio/tree/final/src/assets/screenshot/home.png 250x250) -->
-<img src="https://github.com/eldirb21/eldir-portofolio/tree/final/src/assets/screenshot/home.png" width="400" height="790">
+<img src="https://github.com/eldirb21/eldir-portofolio/blob/dev/src/assets/screenshot/home.png" width="400" height="790">
 
 ### For MOBILE
 
 <!-- ![Alt text](https://github.com/eldirb21/eldir-portofolio/tree/final/src/assets/screenshot/home-mobile.png 250x250) -->
-<img src="https://github.com/eldirb21/eldir-portofolio/tree/final/src/assets/screenshot/home-mobile.png" width="400" height="790">
+<img src="https://github.com/eldirb21/eldir-portofolio/blob/dev/src/assets/screenshot/home-mobile.png" width="400" height="790">
 
 
 If you get Error, you can contact me in eldirb04@gmail.com
