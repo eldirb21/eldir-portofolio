@@ -18,7 +18,7 @@ export const Home = (props) => {
         <div className={styles.profileItem}>
           <p>Hi,</p>
           <h1>Eldir Buulolo</h1>
-          <p>I am Software Defelopment</p>
+          <p>I am Software Development</p>
         </div>
         <div className={styles.profileItem}>
           <img className={styles.imgPhoto} src={photo} alt="profile" />
