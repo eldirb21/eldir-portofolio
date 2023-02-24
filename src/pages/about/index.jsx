@@ -4,7 +4,7 @@ import { avatar } from "../../assets/images";
 import Avatar from "../../components/avatar";
 import Inputs from "../../components/inputs";
 import { contactFields } from "../../data";
-import "./about.css";
+import styles from "./about.css";
 
 const validate = (value, options) => {
   if (options.required) {
@@ -53,13 +53,17 @@ export const About = (props) => {
     // });
   }
   return (
-    <div className={`container`}>
-      <div className="profile">
-        <Avatar className="avatar" src={avatar} alt="User Avatar" />
+    <div >
+       <div className={styles.headers}>
+        <Avatar src={avatar} alt="User Avatar" />
         <h2>Eldir buulolo</h2>
         <h2>eldirb04@gmail.com</h2>
       </div>
-      <div>
+
+
+
+
+     {/* <div>
         <h1>About</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -153,7 +157,7 @@ export const About = (props) => {
             className="form-submit"
           />
         </div>
-      </form>
+      </form> */}
     </div>
   );
 };

@@ -70,12 +70,8 @@
   .contentDesc h1 {
     margin-bottom: 10px;
   }
-  .projectUri {
-  }.contentDescMin {
-    padding: 0px 20px 0px 0px;
-    align-items: flex-start;
+  .contentmobile {
     display: flex;
-    flex-direction: column;
-    gri
-  }
+    flex-direction: column-reverse;
+  } 
 }

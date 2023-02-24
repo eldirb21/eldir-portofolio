@@ -11,7 +11,11 @@ export const Opensource = (props) => {
         return (
           <div className={styles.cardItem}>
             {index % 2 == 0 ? (
-              <div className={styles.content}>
+              <div
+                className={`${styles.content} ${
+                  index % 2 === 0 ? styles.contentmobile : styles.contentmobile
+                }`}
+              >
                 <img src={sample} />
                 <div
                   className={

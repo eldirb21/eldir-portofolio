@@ -1,4 +1,3 @@
-import "./App.css";
 import { Route, Routes as RoutesProvider } from "react-router-dom";
 import Experience from "./pages/experience";
 import Home from "./pages/home";
