@@ -13,12 +13,16 @@ export const Home = (props) => {
 
       <div className={`row ${styles.profile}`}>
         <div className={`row ${styles.profileLeft}`}>
-          <p>Hi,</p>
+          <p>Hi, I'm</p>
           <h1>Eldir Buulolo</h1>
-          <p>I am Software Development</p>
+          <div className={styles.soft}>
+            <p>Mobile Development</p>
+            <p className={styles.space}>|</p>
+            <p>{` Web Development`}</p>
+          </div>
         </div>
         <div className={styles.profileRight}>
-          <img  src={photo} alt="profile" />
+          <img src={photo} alt="profile" />
         </div>
       </div>
     </div>

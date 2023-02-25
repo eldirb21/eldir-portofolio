@@ -30,9 +30,19 @@
   text-transform: uppercase;
   margin: 10px 0;
 }
-.profileLeft p {
+.soft {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.soft p {
   font-size: 20px;
   font-weight: bold;
+  text-align: center;
+  line-height: 0.8;
+}
+.space {
+  margin: 0 10px;
 }
 
 .profileRight {
