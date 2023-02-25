@@ -1,5 +1,5 @@
 .screens {
-  height: 90vh;
+  /* height: 90vh; */
 }
 /**HEADER*/
 .navigation {
@@ -100,14 +100,14 @@
   }
 }
 /**FOOTER*/
-.content {
+/* .content {
   margin: 0 auto;
   padding: 0;
   position: relative;
   text-align: center;
   justify-content: center;
   align-items: center;
-}
+} */
 .text-center a {
   text-decoration: none;
   text-transform: uppercase;

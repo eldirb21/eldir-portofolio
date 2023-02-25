@@ -1,0 +1,146 @@
+.headers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.avatar img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.headers h1 {
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 20px;
+  margin: 0;
+}
+.headers h2 {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+  color: rgb(178, 178, 179);
+}
+.itempadding {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+.about {
+  align-items: center;
+  margin-top: 20px;
+}
+.whatIdo,
+.resume,
+.education,
+.motto {
+  margin-top: 10px;
+}
+
+.whatIdo h1,
+.resume h1,
+.education h1,
+.motto h1,
+.about h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+
+.education h1,
+.motto h1,
+.education p,
+.motto p {
+  text-align: right;
+}
+.whatIdo p,
+.resume p,
+.about p {
+  text-align: justify;
+}
+.contactme {
+  margin-top: 30px;
+  align-items: center;
+}
+.contactme fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border-width: 2px;
+}
+.contactme h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.formInput {
+  display: flex;
+  margin: 8px 0;
+  align-items: center;
+}
+.formInput label {
+  width: 200px;
+}
+.inputText {
+  width: 200px;
+  padding: 10px;
+}
+
+.btncontent {
+  justify-content: center;
+  display: flex;
+  margin: 25px 0;
+}
+.btncontent input {
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px;
+  border-width: 0;
+  background-color: #51dff5;
+  color: #ffff;
+}
+
+.margin {
+  margin-bottom: 200px;
+}
+@media screen and (max-width: 768px) {
+  .avatar img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+  }
+  .whatIdo h1 {
+    text-align: left;
+    margin-top: 5px;
+  }
+  .resume h1,
+  .education h1,
+  .motto h1,
+  .about h1 {
+    text-align: center;
+  }
+
+  .education p,
+  .motto p {
+    text-align: justify;
+  }
+  .btncontent input {
+    width: 100%;
+  }
+  .contactme fieldset {
+    border-width: 2px;
+  }
+  .formInput {
+    flex-direction: column;
+  }
+  .formInput label,
+  .inputText {
+    width: 170px;
+  }
+}

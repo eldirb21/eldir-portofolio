@@ -1,0 +1,59 @@
+.content {
+  border-bottom: 4px dotted rgb(179, 179, 179);
+  width: 80%;
+  justify-content: center;
+  align-self: center;
+}
+.contentReverce {
+  flex-direction: row-reverse;
+  border-bottom: 4px dotted rgb(179, 179, 179);
+  width: 80%;
+  justify-content: center;
+  align-self: center;
+}
+.contentLeft {
+  padding: 20px;
+}
+.contentLeft h2 {
+  margin: 0 0 8px 0;
+  font-size: 20px;
+}
+.contentLeft p {
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+}
+.url {
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  margin: 0;
+}
+.url h5 {
+  margin: 10px 0 0 0;
+}
+.url a {
+  text-decoration: none;
+  margin: 10px 0 0 10px;
+  font-weight: bold;
+  color: blue;
+}
+.contentRight {
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+}
+.contentRight img {
+  width: 100%;
+  border-radius: 20px;
+}
+@media screen and (max-width: 768px) {
+  .content {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  .contentReverce {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+}

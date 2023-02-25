@@ -1,0 +1,80 @@
+.content {
+  flex-direction: column;
+  display: flex;
+  align-items: start;
+  padding: 20px;
+  border-bottom: 4px dotted rgb(179, 179, 179);
+  width: 80%;
+  align-self: center;
+}
+.companies{
+  align-items: center;
+}
+.companies img {
+ width: 45px;
+ height: 45px;
+ margin-right: 20px;
+}
+.companies h2 {
+  margin: 0px;
+  font-size: larger;
+}
+.companies h6 {
+  margin: 0;
+  color: rgb(104, 103, 103);
+  font-weight: 500;
+}
+.companiesDesc {
+}
+.companiesDesc h5 {
+  margin: 10px 0 5px 0;
+}
+.companiesDesc p {
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+}
+.companiesDesc a {
+  font-size: 14px;
+  text-align: justify;
+}
+.roles {
+  width: 100%;
+}
+.rolesItem {
+  width: 50%;
+  margin: 0px;
+}
+.rolesItem h5 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.rolesItem ul {
+  list-style-type: square;
+  padding: 20px;
+  margin: 0 0 0 20px;
+  padding: 0 0 0 20px;
+}
+.rolesItem ul li {
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  .companies h2 {
+    font-size: medium;
+  }
+ 
+  .roles {
+    flex-direction: column;
+  }
+  .rolesItem {
+    width: 100%;
+    margin: 0px;
+  }
+  .rolesItem ul li {
+    font-size: 14px;
+  }
+}
